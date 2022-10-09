@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=senlin
+          PROJECT_REPO=https://github.com/openstack/senlin
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=
